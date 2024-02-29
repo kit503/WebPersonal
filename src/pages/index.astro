@@ -11,53 +11,45 @@ const last_posts = posts.slice(0, 3);
 
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
+    <div class="text-xl py-1">Hello there 👋</div>
+    <div class="text-5xl font-bold">Soy Manuel De la Cruz</div>
+    <div class="text-3xl py-3 font-bold">Estudiante de Programación</div>
     <div class="py-2">
       <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
+        Estudiante de <b>Computación e Informática</b> del Instituto Superior Tecnológico Cibertec, quinto ciclo. Me considero una 
+persona honesta, puntual y proactiva, con habilidades para el trabajo en equipo. En búsqueda de oportunidad laboral 
+en la que pueda desarrollar mis habilidades y adquirir experiencia en programación.
       </text>
     </div>
     <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
-      </a>
+      <a class="btn" href="https://www.linkedin.com/in/kit503/" target="_blank"> Conectemos</a>
     </div>
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+    <div class="text-3xl w-full font-bold mb-2">Proyectos más recientes {"</>"}</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="Aplicación Móvil "
+    img="/post_appMovil.webp"
+    desc="Prototipo de App de Ventas con conexión a Firebase, desarrollada en Kotlin"
+    url="https://github.com/kit503/ProyectoDAMI"
+    target="_blank"
+    badge="NUEVO"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="App Web de Películas"
+    img="/post_appWeb.webp"
+    desc="App Web para listar películas y colocar comentarios, con conexión a MongoDB y FrontEnd desarrollado con React"
+    url="https://github.com/kit503/ProyectoPeliculas"
+    target="_blank"
   />
   <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+  <!-- <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Blog</div>
   </div>
 
   {
@@ -74,5 +66,5 @@ const last_posts = posts.slice(0, 3);
         <div class="divider my-0" />
       </>
     ))
-  }
+  } -->
 </BaseLayout>
